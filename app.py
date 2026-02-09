@@ -4,9 +4,8 @@ import streamlit as st
 st.title("Streamlitアプリ")
 
 # text
-name = st.text_imput("名前を入力してください")
+name = st.text_input("名前を入力してください")
 
 # button in
 if st.button("挨拶する"):
     st.success(f"こんにちは、{name}さん！これはPythonで動いています")
-    
